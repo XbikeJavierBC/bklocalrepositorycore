@@ -65,7 +65,17 @@ final class BKRXRideLocalRepositoryTest: XCTestCase {
             time: 10,
             distance: 100,
             startAddress: "Lugar 10",
-            endAddress: "Lugar 100"
+            endAddress: "Lugar 100",
+            coordinateList: [
+                BKCoordinateModel(
+                    latitude: 20.06592014246268,
+                    longitude: -98.80536095818925
+                ),
+                BKCoordinateModel(
+                    latitude: 20.063501504763938,
+                    longitude: -98.80214230727904
+                )
+            ]
         )
         
         self.subscriber = try BKRXRideLocalRepository.save(model: model)?
@@ -89,21 +99,51 @@ final class BKRXRideLocalRepositoryTest: XCTestCase {
             time: 20,
             distance: 200,
             startAddress: "Lugar 20",
-            endAddress: "Lugar 200"
+            endAddress: "Lugar 200",
+            coordinateList: [
+                BKCoordinateModel(
+                    latitude: 20.06592014246268,
+                    longitude: -98.80536095818925
+                ),
+                BKCoordinateModel(
+                    latitude: 20.063501504763938,
+                    longitude: -98.80214230727904
+                )
+            ]
         )
         
         let model2 = BKRideModel(
             time: 30,
             distance: 300,
             startAddress: "Lugar 20",
-            endAddress: "Lugar 300"
+            endAddress: "Lugar 300",
+            coordinateList: [
+                BKCoordinateModel(
+                    latitude: 20.06592014246268,
+                    longitude: -98.80536095818925
+                ),
+                BKCoordinateModel(
+                    latitude: 20.063501504763938,
+                    longitude: -98.80214230727904
+                )
+            ]
         )
         
         let model3 = BKRideModel(
             time: 40,
             distance: 400,
             startAddress: "Lugar 40",
-            endAddress: "Lugar 400"
+            endAddress: "Lugar 400",
+            coordinateList: [
+                BKCoordinateModel(
+                    latitude: 20.06592014246268,
+                    longitude: -98.80536095818925
+                ),
+                BKCoordinateModel(
+                    latitude: 20.063501504763938,
+                    longitude: -98.80214230727904
+                )
+            ]
         )
         
         self.subscriber = try BKRXRideLocalRepository.saveAll(modelList: [model, model2, model3])?

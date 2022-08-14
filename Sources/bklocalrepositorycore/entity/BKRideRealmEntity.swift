@@ -24,4 +24,7 @@ public class BKRideRealmEntity: Object {
     
     @Persisted
     var endAddress: String = .empty
+    
+    @Persisted
+    var coordinateList: List<BKCoordinateRealmEntity> = List<BKCoordinateRealmEntity>()
 }
