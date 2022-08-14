@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "bkdomauncore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/bkdomauncore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c39192f0a45e21dba986917d5143e4a43bd5fd99"
+      }
+    },
+    {
+      "identity" : "ghgungnircore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/ghgungnircore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bd3208c774d66987a2191bd016e54b40b666c23c"
+      }
+    },
+    {
+      "identity" : "ghvultangcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XbikeJavierBC/ghvultangcore.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9db051e2f1d9f92099a78af8c8df3ab662f4bbc4"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "2b8def17bb8e0cddbcc754db6b6466b8487feebf",
+        "version" : "12.5.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d949715c09767dbe1b9924a2d187624811fc5cd9"
+      }
+    }
+  ],
+  "version" : 2
+}
